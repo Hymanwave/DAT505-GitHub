@@ -24,7 +24,7 @@ function init(){
 
 function geometry(){
   // Create a Cube Mesh with basic material ---------
-  geometry = new THREE.ConeGeometry(100, 100, 100);
+  geometry = new THREE.BoxGeometry(100, 100, 100);
   material = new THREE.MeshBasicMaterial( { color: "#FCE1E0" } );
   mesh = new THREE.Mesh( geometry, material );
   mesh.position.z = -1000;
